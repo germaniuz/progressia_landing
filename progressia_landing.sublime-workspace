@@ -1,0 +1,925 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"social.svg"
+			],
+			[
+				"dat",
+				"data_old"
+			],
+			[
+				"wh",
+				"whandle"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"sc",
+				"scrollPos"
+			],
+			[
+				"scr",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"res",
+				"resize	.resize()"
+			],
+			[
+				"bo",
+				"boxWidth"
+			],
+			[
+				"scroll",
+				"scrollPos"
+			],
+			[
+				"win",
+				"winWidth"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"li",
+				"lightbox.min.js"
+			],
+			[
+				"temp",
+				"temp2.html"
+			],
+			[
+				"magic_",
+				"magic_blue_white.png	w:16 h:14"
+			],
+			[
+				"ma",
+				"magic_blue_icon.png	w:16 h:14"
+			],
+			[
+				"border",
+				"border_nav.png	w:2 h:22"
+			],
+			[
+				"full",
+				"fullWidth"
+			],
+			[
+				"b",
+				"bg_bridge.jpg	w:65 h:49"
+			],
+			[
+				"exper",
+				"experience"
+			],
+			[
+				"set",
+				"setActiveNavBg"
+			],
+			[
+				"menu",
+				"menuBgDiv"
+			],
+			[
+				"acti",
+				"activeClass"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"cd",
+				"cdn	jQuery"
+			],
+			[
+				"anim",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ligh",
+				"lightOn"
+			],
+			[
+				"ligth",
+				"lightOn"
+			],
+			[
+				"house",
+				"house.png	w:1000 h:686"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"sr",
+				"src"
+			],
+			[
+				"jquery",
+				"jquery-ui-1.8.20.custom.min.js"
+			],
+			[
+				"inc",
+				"include〔keyword〕"
+			],
+			[
+				"contacts",
+				"contacts.html"
+			],
+			[
+				"contac",
+				"contacts.html"
+			],
+			[
+				"conta",
+				"contacts.html"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"images",
+				"images/"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"ren",
+				"renderPosition	(teaser.php)"
+			],
+			[
+				"bxs",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"list-s",
+				"list-style-image"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fade",
+				"fadeNext"
+			],
+			[
+				"sl",
+				"fadeSliderToggle"
+			],
+			[
+				"n",
+				"nova"
+			],
+			[
+				"e",
+				"e4b3d0"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"mous",
+				"mouseover〔function〕"
+			],
+			[
+				"gro",
+				"group-1"
+			],
+			[
+				"grou",
+				"group-2"
+			],
+			[
+				"gr",
+				"group-1"
+			],
+			[
+				"css",
+				"css/"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"d",
+				"device"
+			],
+			[
+				"max",
+				"max-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 320.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"comme",
+				"Snippet: Section Comment"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snippet",
+				"Snippet: Basic Comment"
+			],
+			[
+				"comment",
+				"Snippet: Long Comment"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"remove tag",
+				"Emmet: Remove Tag"
+			],
+			[
+				"remove attr",
+				"Tag: Remove All Attributes From Tags in Document"
+			],
+			[
+				"remove pi",
+				"Tag: Remove Picked Tags in Selection"
+			],
+			[
+				"commet",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"comment - fu",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"comment -",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"jquer",
+				"Snippet: jQuery"
+			],
+			[
+				"commenr",
+				"Snippet: Comment - Section footer comment"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"uploa",
+				"SFTP: Upload File"
+			],
+			[
+				"tag",
+				"Tag: Remove Picked Tags in Document"
+			],
+			[
+				"uplo",
+				"SFTP: Upload File"
+			],
+			[
+				"word w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"Snippet: jq",
+				"Snippet: jQuery"
+			],
+			[
+				"package lis",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"Side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"",
+				"Package Control: Add Channel"
+			],
+			[
+				"emmet",
+				"Toggle Comment"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/OneDrive/CLIENTS/progressia/landing/http"
+	],
+	"file_history":
+	[
+		"/E/OneDrive/CLIENTS/newday/http/template/index.php",
+		"/E/OneDrive/CLIENTS/newday/http/template/css/template_d.css",
+		"/C/Users/german/AppData/Local/Temp/scp37822/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/fullstory.tpl",
+		"/E/OneDrive/CLIENTS/newday/http/template/css/template.css",
+		"/C/Users/german/AppData/Local/Temp/scp41884/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/css/style.css",
+		"/C/Users/german/AppData/Local/Temp/scp40586/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/banner/refit/refit_h.html",
+		"/C/Users/german/AppData/Local/Temp/scp36300/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/banner/refit/refit.html",
+		"/C/Users/german/AppData/Local/Temp/scp05069/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/css/style.css",
+		"/C/Users/german/AppData/Local/Temp/scp58407/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/include/sidebar-l.tpl",
+		"/C/Users/german/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/OneDrive/CLIENTS/newday/http/template/images/icons/social.svg",
+		"/E/OneDrive/CLIENTS/newday/http/template/js/insert_svg.js",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/google_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/facebook_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/ok_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/instagram_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/rss_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/youtube_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/vk_icon.svg",
+		"/E/OneDrive/CLIENTS/newday/psd/img/social/twitter_icon.svg",
+		"/C/Users/german/AppData/Local/Temp/scp39191/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/engine/rss.php",
+		"/C/Users/german/AppData/Local/Temp/scp12375/var/www/nd-news.ru/httpdocs/modules/mod_currency/mod_currency.php",
+		"/C/Users/german/AppData/Local/Temp/scp19269/var/www/nd-news.ru/httpdocs/modules/mod_currency/tmpl/default.php",
+		"/C/Users/german/AppData/Local/Temp/scp12171/var/www/nd-news.ru/httpdocs/cache/rates.cache",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/news/item.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/content.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/news.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/layouts/default.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/news/rubric.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/tpls/news/default.tpl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/sample.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/content/content.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/templates/demooldschool/xslt/modules/content/menu.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/tpls/news/default.tpl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/xsltTpls/modules/news.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/styles/skins/mac/data/modules/news/list.modify.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/styles/skins/mac/data/modules/news/list.view.xsl",
+		"/H/umicms/UMI.CMS_Localpack/home/localhost/www/styles/skins/mac/main.xsl",
+		"/C/Users/german/AppData/Local/Temp/scp20411/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/main.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp56595/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/main.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp59565/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/css/style.css",
+		"/C/Users/german/AppData/Local/Temp/scp37058/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/css/style.css",
+		"/C/Users/german/AppData/Local/Temp/scp36422/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/main.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp35345/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/catface.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp36370/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/fullstory.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp36349/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/comments.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp19399/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/main.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp32120/var/www/nd-news.ru/httpdocs/sa",
+		"/C/Users/german/AppData/Local/Temp/scp22249/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/navigation.tpl",
+		"/C/Users/german/AppData/Local/Temp/scp15763/var/www/nd-news.ru/httpdocs/modules/mod_currency/mod_currency.php",
+		"/C/Users/german/AppData/Local/Temp/scp38202/var/www/nd-news.ru/httpdocs/modules/mod_currency/tmpl/default.php",
+		"/C/Users/german/AppData/Local/Temp/scp15350/var/www/nd-news.ru/httpdocs/cache/rates.cache",
+		"/C/Users/german/AppData/Local/Temp/scp18913/var/www/nd-news.ru/httpdocs/cache/oldrates.cache",
+		"/C/Users/german/AppData/Local/Temp/scp50238/var/www/nd-news.ru/httpdocs/cache/rates.cache",
+		"/C/Users/german/AppData/Local/Temp/scp20343/var/www/nd-news.ru/httpdocs/modules/mod_currency/tmpl/default.php",
+		"/C/Users/german/AppData/Local/Temp/scp39744/var/www/nd-news.ru/httpdocs/cache/oldrates.cache",
+		"/C/Users/german/AppData/Local/Temp/scp33188/var/www/nd-news.ru/httpdocs/modules/mod_currency/mod_currency.php",
+		"/C/Users/german/AppData/Local/Temp/scp26208/var/www/nd-news.ru/httpdocs/modules/mod_currency/mod_currency.php",
+		"/C/Users/german/AppData/Local/Temp/scp54482/var/www/test.com/httpdocs/info.php",
+		"/E/OneDrive/CLIENTS/newday/http/template/css/mobile.css",
+		"/E/OneDrive/CLIENTS/newday/http/template/.gitignore",
+		"/E/OneDrive/CLIENTS/newday/http/template/test",
+		"/E/OneDrive/CLIENTS/newday/http/template/sftp-config.json",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/germanius/AppData/Local/Temp/scp52130/var/www/vhosts/2/104851/webspace/httpdocs/newday.one/templates/YourCity/include/cust1.tpl",
+		"/D/OneDrive/CLIENTS/samisolim/httpsamisolim/templateDetails.xml",
+		"/D/OneDrive/CLIENTS/samisolim/httpsamisolim/css/template.css",
+		"/D/OneDrive/CLIENTS/samisolim/httpsamisolim/index.php",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/sftp-config.json",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/templateDetails.xml",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/language/ru-RU/ru-RU.tpl_samisolim.ini",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/index.html",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/language",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/.gitignore",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/css/desktop_style.css",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/css/mobile_style.css",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/css/template.css",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/index.php",
+		"/E/OneDrive/CLIENTS/Vitastom/httpvitastom/sftp-config.json",
+		"/C/Users/german/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/sftp-config.json",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/index.php",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/js/bxslider.js",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/css/bxslider.css",
+		"/E/WEBTECH/DEVELOP/JQUERY/слайдеры/jquery.bxslider/jquery.bxslider.js",
+		"/E/WEBTECH/DEVELOP/JQUERY/слайдеры/jquery.bxslider/images/controls.png",
+		"/E/WEBTECH/DEVELOP/JQUERY/слайдеры/jquery.bxslider/images/bx_loader.gif",
+		"/E/WEBTECH/DEVELOP/JQUERY/слайдеры/jquery.bxslider/jquery.bxslider.css",
+		"/E/WEBTECH/DEVELOP/JQUERY/слайдеры/jquery.bxslider/jquery.bxslider.min.js",
+		"/E/OneDrive/CLIENTS/samisolim/httpsamisolim/css/template.css",
+		"/E/OneDrive/Projects/Web/sandbox.home/css/lightbox.css",
+		"/E/OneDrive/Projects/Web/sandbox.home/temp2.html",
+		"/E/OneDrive/Projects/Web/sandbox.home/popup.html",
+		"/C/Users/german/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/german/AppData/Roaming/Sublime Text 3/Packages/User/jdocm.sublime-snippet",
+		"/E/OneDrive/Projects/Web/sandbox.home/js/slideshow.js",
+		"/E/OneDrive/Projects/Web/sandbox.home/blur.html",
+		"/E/OneDrive/Projects/Web/sandbox.home/temp.html",
+		"/C/Users/german/AppData/Local/Temp/scp33325/var/www/vhosts/2/104851/webspace/httpdocs/gabadushit.ru/layout/header.html",
+		"/C/Users/german/AppData/Local/Temp/scp32187/var/www/vhosts/2/104851/webspace/httpdocs/gabadushit.ru/index.html",
+		"/C/Users/german/AppData/Local/Temp/scp32985/var/www/vhosts/2/104851/webspace/httpdocs/gabadushit.ru/vlg.php",
+		"/C/Users/german/AppData/Local/Temp/scp42042/var/www/vhosts/2/104851/webspace/httpdocs/vitastomplus.ru/templates/vitastomplus/css/template.css",
+		"/C/Users/german/AppData/Local/Temp/scp33952/var/www/vhosts/2/104851/webspace/httpdocs/vitastomplus.ru/templates/vitastomplus/index.php",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/temp.html",
+		"/C/Users/german/AppData/Local/Temp/scp08580/var/www/vhosts/2/104851/webspace/httpdocs/progressia-group.ru/configuration.php",
+		"/C/Users/german/AppData/Local/Temp/scp32405/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/docs/expert.html",
+		"/C/Users/german/AppData/Local/Temp/scp31105/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/docs/zvonok.html",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/css/template.css",
+		"/C/Users/german/AppData/Local/Temp/scp31450/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/modules/mod_articles_categories/tmpl/default.php",
+		"/C/Users/german/AppData/Local/Temp/scp31088/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/modules/mod_articles_categories/tmpl/default_items.php",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/html/mod_articles_categories/default_items.php",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/html/mod_articles_categories/default.php",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/html/com_content/category/blog.php",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/html/mod_categories/default.php",
+		"/C/Users/german/AppData/Local/Temp/scp54740/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/modules/mod_articles_categories/tmpl/default_items.php",
+		"/C/Users/german/AppData/Local/Temp/scp53930/var/www/vhosts/2/104851/webspace/httpdocs/progressia.studio-aw.ru/modules/mod_articles_categories/tmpl/default.php",
+		"/E/OneDrive/Projects/Web/sandbox.home/css/fancybox.css",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js",
+		"/E/OneDrive/Projects/Web/sandbox.home/js/jquery.fancybox.pack.js",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4/index.html",
+		"/E/OneDrive/Projects/Web/sandbox.home/js/lightbox.min.js",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/lightbox-2.7.1 Lokesh (work on Joomla)/lightbox/js/lightbox.min.js",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/lightbox2-master/lightbox2-master/dist/css/lightbox.css",
+		"/E/WEBTECH/DEVELOP/MY CODE LIBRARY/lightbox/lightbox2-master/lightbox2-master/dist/js/lightbox.min.js",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/html/mod_articles_popular/default-mainpage.php",
+		"/C/Users/german/AppData/Local/Temp/Rar$DRa0.058/s1013385_mysql_daily_2015-12-03.sql",
+		"/E/OneDrive/CLIENTS/Прогрессия/http/http_progressia/css/nanoscroller.css"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"viewbox=\"0 0 100 100\"",
+			"viewbox=\"0 0 50 50\"",
+			"\\s",
+			"\\n",
+			"ХК ",
+			"content",
+			"$cache_old",
+			";\n",
+			"hide",
+			"example",
+			"close-	",
+			"menu-btn",
+			".logo",
+			"e.preventDefault();",
+			"menu",
+			"nav",
+			"showcase",
+			"content-wrapper",
+			"next",
+			"				'",
+			"z-index",
+			";\n",
+			"@black",
+			"@h1	",
+			"\n}",
+			";\n",
+			"0",
+			"\n    ",
+			";\n",
+			"showca",
+			"$",
+			"windows",
+			"item-",
+			"halfpage right",
+			"fff",
+			"box-shadow",
+			"item-image",
+			"children",
+			"footer",
+			"ol ",
+			"rn",
+			"\\",
+			"docs-order",
+			"module",
+			"main-news",
+			"news-main",
+			"popula",
+			"select",
+			"fitImagesInViewport",
+			"$",
+			"item-image",
+			"popular-main",
+			"item-image",
+			"images",
+			"$",
+			"popular-header",
+			"10px",
+			"popu",
+			"295px",
+			"item-image",
+			"pull-left",
+			"intro",
+			"image",
+			".blog img",
+			"footer",
+			"footer\n",
+			"pub",
+			">\n",
+			"publish_up",
+			"item->",
+			"date",
+			"mb",
+			"asi",
+			"asis",
+			"expert",
+			"}\n",
+			"before",
+			"start",
+			"first",
+			"paginatio",
+			"introtext",
+			"; ",
+			"readmore",
+			".blog img",
+			"before",
+			"nav-child:before",
+			".blog",
+			"BLOG",
+			"blog",
+			"ol\\n",
+			"ol",
+			"}\n",
+			"ol\\n",
+			"ol",
+			"\\d.  ",
+			"- ",
+			"search",
+			"wra",
+			"item-101",
+			"media",
+			"main",
+			".item-page",
+			".time",
+			"time,",
+			"news-des",
+			"шт",
+			"\\d \\d",
+			"blog",
+			"blog_item",
+			"h2",
+			"?>\n",
+			"name",
+			"omla.content.blog_style_default_item_title",
+			"\"name\"",
+			"content.blog_style_default_item_title",
+			"\"name\"",
+			"name",
+			"ul",
+			"pre-ul",
+			".footer",
+			"<td>шт</td><td></td>",
+			"</td>\\n\\s*<td>",
+			"<td>шт.</td>\n<td></td>",
+			"</td>\\n\\s*<td>",
+			"</td>/t/n*<td>",
+			"footer",
+			"none",
+			"style"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"viewbox=\"0 0 1000 1000\"",
+			"viewbox=\"0 0 100 100\"",
+			"",
+			"jQuery",
+			"halfpage left",
+			"",
+			"jQuery",
+			"../images",
+			"",
+			"search-header",
+			"шт.",
+			"<td></td><td></td>",
+			"</td><td>шт</td><td>",
+			"<td></td>\n<td></td>",
+			"</td>\\n<td>шт.</td>\\n<td>",
+			"</td>/\\n<td>шт.</td><td>",
+			"</td><td>шт.</td><td>",
+			"",
+			"h2",
+			"span class=\"small\"",
+			"",
+			"th",
+			"",
+			"rect",
+			"",
+			"cameras",
+			"nav",
+			"",
+			"h3",
+			"",
+			" ",
+			"",
+			" ",
+			"",
+			" ",
+			"",
+			"\\d .р</",
+			"",
+			" ",
+			"",
+			" ",
+			"",
+			"fixed",
+			"",
+			"carDiv",
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 71.0
+	},
+	"pinned_build_system": "",
+	"project": "progressia_landing.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"demo\\language\\if-2.php"
+			],
+			[
+				"html",
+				"temp.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\OneDrive\\CLIENTS\\Прогрессия\\http\\progressia_http.sublime-project"
+			],
+			[
+				"sa",
+				"E:\\OneDrive\\Projects\\web\\sandbox.loc\\sundbox.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
