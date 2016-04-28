@@ -46,8 +46,14 @@
     }
   /* 0.2 typography
      ========================================================================== */
+    body {
+      font-family: "roboto", sans-serif;
+    }
     h1 {
-
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 1.25;
     }
     h2 {
 
@@ -72,7 +78,15 @@
     ========================================================================= */
     header {
       padding: 20px 0;
-    }        
+    }
+    .phone-icon {
+      font-weight: 300;
+      font-size: 29px;
+      padding-left: 40px;
+      background: url(../img/phone_icon.svg) 0 2px no-repeat;
+      -webkit-background-size:auto 95%;
+      background-size: auto 95%;
+    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
@@ -92,6 +106,13 @@
     .logo {
       width: 17.77777777777778%;
       margin-bottom: 15px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .phone-icon {
+      display: table;
+      margin: 0 auto;
     }
   /* 3.4. hero
      ========================================================================== */
