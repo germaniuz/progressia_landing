@@ -27,6 +27,7 @@
       - 3.4. HERO
       - 3.5. ADVANTAGES
       - 3.6. CATEGORIES
+      - 3.7. OBJECTS
     4. PAD 750px
       - 4.1. helpers
       - 4.2. typography
@@ -65,7 +66,8 @@
     }
     h2 {
       font-size: 20px;
-      line-height: 1.25;    
+      line-height: 1.25;
+      text-transform: uppercase;   
     }
     h2.devider {
       position: relative;
@@ -167,6 +169,17 @@
       width: 40px;
       margin-right: 20px; 
     }
+  /* 1.5. OBJECTS
+     ========================================================================== */
+    .object {
+      margin: 30px 0;
+      overflow: hidden;
+      font-size: 14px;
+    }
+    .object img {
+      width: 100%;
+      margin-bottom: 15px;
+    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
@@ -180,6 +193,9 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+    }
+    .desktop {
+      display: none;
     }
   /* 3.2. typography
      ========================================================================== */
@@ -222,6 +238,7 @@
           background: #F7F7F7;
           padding: 30px 0;
           line-height: 1.4;
+          margin: 10px 0 40px;
         }
         .categories .col  {
           width: 85%;
@@ -236,6 +253,8 @@
           float: left;
           margin-bottom: 20px;
         }
+      /* 3.7. OBJECTS
+         ========================================================================== */
   }
 /* ==========================================================================
    4. PAD 750px 
