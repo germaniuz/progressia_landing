@@ -53,6 +53,15 @@
     .center {
       text-align: center;
     }
+    .grey-block {
+      background: #F7F7F7;
+      padding: 30px 0;
+    }
+    .blue-block {
+      background: #1D3755;
+      padding: 40px 0;
+      color: #fff;
+    }
   /* 0.2 typography
      ========================================================================== */
     body {
@@ -69,15 +78,14 @@
       line-height: 1.25;
       text-transform: uppercase;   
     }
-    h2.devider {
+    h2.devider,
+    h2.devider-light {
       position: relative;
       margin-bottom: 60px;
     }
-    h2.devider:after { /* TODO: check styles for 750px and 1200px */
+    h2.devider:after,
+    h2.devider-light:after { /* TODO: check styles for 750px and 1200px */
       content: " ";
-      background: url(../img/devider.svg) no-repeat;
-      content: " ";
-      background: url(../img/devider.svg) no-repeat;
       position: absolute;
       bottom: -40px;
       left: 34%;
@@ -85,8 +93,14 @@
       height: 14px;
       display: block;
     }
+    h2.devider:after {
+      background: url(../img/devider.svg) no-repeat;
+    }
+    h2.devider-light:after {
+      background: url(../img/devider_light.svg) no-repeat;
+    }
     p {
-
+      line-height: 1.4;
     }
     a {
 
@@ -123,7 +137,7 @@
     .phone-icon {
       font-weight: 300;
       font-size: 29px;
-      padding-left: 35px;
+      padding-left: 40px;
       background: url(../img/phone_icon.svg) 0 2px no-repeat;
       -webkit-background-size:auto 95%;
       background-size: auto 95%;
@@ -180,6 +194,12 @@
       width: 100%;
       margin-bottom: 15px;
     }
+  /* 1.6. CONTACTS
+     ========================================================================== */
+    .contacts p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
@@ -235,8 +255,6 @@
       /* 3.6. CATEGORIES
          ========================================================================== */
         .categories {
-          background: #F7F7F7;
-          padding: 30px 0;
           line-height: 1.4;
           margin: 10px 0 40px;
         }
