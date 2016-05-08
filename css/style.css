@@ -9,31 +9,50 @@
  *  0. BASIC
  *    - 0.1. helpers
  *    - 0.2. typography
+ *    - 0.3. forms
+ *    - 0.4. fixes
  *  1. BLOCKS
  *    - 1.1. HEADER
  *    - 1.2. HERO
-      - 1.3. ADVANTAGES
-      - 1.4. CATEGORIES
-      - 1.5. OBJECTS
-      - 1.6. CONTACTS
-      - 1.7. GET-FORM
-    2. MODULES
-      - 2.1. POPUP
-      - 2.2. GO-TOP
-    3. MOBILE 480px
-      - 3.1. helpers
-      - 3.2. typography
-      - 3.3. HEADER
-      - 3.4. HERO
-      - 3.5. ADVANTAGES
-      - 3.6. CATEGORIES
-      - 3.7. OBJECTS
-    4. PAD 750px
-      - 4.1. helpers
-      - 4.2. typography
-      - 4.3. HEADER
-      - 4.4. HERO
-    5. DESKTOP 1200px
+ *    - 1.3. ADVANTAGES
+ *    - 1.4. CATEGORIES
+ *    - 1.5. OBJECTS
+ *    - 1.6. CONTACTS
+ *    - 1.7. GET-FORM
+ *  2. MODULES
+ *    - 2.1. POPUP
+ *    - 2.2. GO-TOP
+ *  3. MOBILE 480px
+ *    - 3.1. helpers
+ *    - 3.2. typography
+ *    - 3.3. HEADER
+ *    - 3.4. HERO
+ *    - 3.5. ADVANTAGES
+ *    - 3.6. CATEGORIES
+ *    - 3.7. OBJECTS
+ *    - 3.8. CONTACTS
+ *    - 3.9. GET-FORM
+ *    - 3.10. fixes
+ *  4. PAD 750px
+ *    - 4.1. helpers
+ *    - 4.2. typography
+ *    - 4.3. HEADER
+ *    - 4.4. HERO
+ *    - 4.5. ADVANTAGES
+ *    - 4.6. CATEGORIES
+ *    - 4.7. OBJECTS
+ *    - 4.8. CONTACTS
+ *    - 4.9. GET-FORM
+ *  5. DESKTOP 1200px
+ *    - 5.1. helpers
+ *    - 5.2. typography
+ *    - 5.3. HEADER
+ *    - 5.4. HERO
+ *    - 5.5. ADVANTAGES
+ *    - 5.6. CATEGORIES
+ *    - 5.7. OBJECTS
+ *    - 5.8. CONTACTS
+ *    - 5.9. GET-FORM
  */
 
 /* ==========================================================================
@@ -125,7 +144,27 @@
     .yellow-btn a {
       color: #000;
     }
-
+  /* 0.3. forms
+     ========================================================================== */
+    input {
+      border: none;
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      padding: 5px 0 10px;
+      border-bottom: 1px solid #FFF;
+      background: #1D3755;
+      color: #fff;
+      font-family: "roboto", sans-serif;
+      text-align: center;
+      font-weight: 400;
+      font-style: italic;
+    }
+    input[type="submit"] {
+      font-size: 16px;
+    }
 /* ==========================================================================
    1. BLOCKS
   ========================================================================== */
@@ -200,6 +239,14 @@
       margin-bottom: 20px;
       line-height: 1.6;
     }
+  /* 1.7. GET-FORM
+     ========================================================================== */
+    .get-form form {
+      margin: 0 auto;
+    }
+    .get-form input[type="submit"] {
+      margin-top: 35px;
+    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
@@ -246,33 +293,48 @@
       font-size: 24px;
       margin-bottom: 30px;
     }
-    /* 3.5. ADVANTAGES
-       ========================================================================== */
-      .advantages {
-        width: 73%;
-        margin: 0 auto;
-      }
-      /* 3.6. CATEGORIES
-         ========================================================================== */
-        .categories {
-          line-height: 1.4;
-          margin: 10px 0 40px;
-        }
-        .categories .col  {
-          width: 85%;
-          margin: 0 auto; 
-        }
-        .category {
-          margin: 20px 0;
-          overflow: hidden;
-        }
-        .category img {
-          display: block;
-          float: left;
-          margin-bottom: 20px;
-        }
-      /* 3.7. OBJECTS
-         ========================================================================== */
+  /* 3.5. ADVANTAGES
+     ========================================================================== */
+    .advantages {
+      width: 73%;
+      margin: 0 auto;
+    }
+  /* 3.6. CATEGORIES
+     ========================================================================== */
+    .categories {
+      line-height: 1.4;
+      margin: 10px 0 40px;
+    }
+    .categories .col  {
+      width: 85%;
+      margin: 0 auto; 
+    }
+    .category {
+      margin: 20px 0;
+      overflow: hidden;
+    }
+    .category img {
+      display: block;
+      float: left;
+      margin-bottom: 20px;
+    }
+  /* 3.7. OBJECTS
+     ========================================================================== */
+  /* 3.8. CONTACTS
+     ========================================================================== */
+  /* 3.9. GET-FORM
+     ========================================================================== */
+    .get-form form {
+      width: 90%;
+    }
+  /* 3.10. fixes
+     ========================================================================== */
+    /* fixing ios phone numbers blue links */ 
+    .phone-icon a,
+    .contacts a { 
+      color: #000;
+      text-decoration: none;
+    }
   }
 /* ==========================================================================
    4. PAD 750px 
