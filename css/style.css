@@ -33,17 +33,13 @@
  *    - 3.8. CONTACTS
  *    - 3.9. GET-FORM
  *    - 3.10. fixes
- *  4. PAD 750px
+ *  4. PAD&DESKTOP
  *    - 4.1. helpers
  *    - 4.2. typography
- *    - 4.3. HEADER
- *    - 4.4. HERO
- *    - 4.5. ADVANTAGES
- *    - 4.6. CATEGORIES
- *    - 4.7. OBJECTS
- *    - 4.8. CONTACTS
- *    - 4.9. GET-FORM
- *  5. DESKTOP 1200px
+ *    - 4.3. forms
+ *    - 4.4. fixes
+ *    - 4.5. HEADER
+ *  5. PAD 750px
  *    - 5.1. helpers
  *    - 5.2. typography
  *    - 5.3. HEADER
@@ -53,6 +49,16 @@
  *    - 5.7. OBJECTS
  *    - 5.8. CONTACTS
  *    - 5.9. GET-FORM
+ *  6. DESKTOP 1200px
+ *    - 6.1. helpers
+ *    - 6.2. typography
+ *    - 6.3. HEADER
+ *    - 6.4. HERO
+ *    - 6.5. ADVANTAGES
+ *    - 6.6. CATEGORIES
+ *    - 6.7. OBJECTS
+ *    - 6.8. CONTACTS
+ *    - 6.9. GET-FORM
  */
 
 /* ==========================================================================
@@ -338,11 +344,11 @@
     }
   }
 /* ==========================================================================
-   4. PAD 750px 
+   5. PAD 750px 
    ========================================================================== */
-  @media screen and (min-width: 481px) and (max-width: 750px) {
+  @media screen and (min-width: 481px) and (max-width: 1210px) {
 
-  /* 4.4. HERO
+  /* 5.4. HERO
      ========================================================================== */
     .hero {
       padding: 70px 0;
