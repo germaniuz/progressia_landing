@@ -202,7 +202,7 @@
      ========================================================================== */
     .hero {
       width: 100%;
-      background: url(../img/hero_bg.jpg) center center no-repeat;
+      background: url(../img/hero_bg.jpg) top center no-repeat;
       margin-bottom: 30px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -216,7 +216,7 @@
       line-height: 1.33;
     }
     .down-arrow {
-      margin-top: 30px;
+      margin: 40px 0 50px;
     }
   /* 1.3. ADVANTAGES
      ========================================================================== */
@@ -286,7 +286,7 @@
     }
     .grey-block-m {
       background: #F7F7F7;
-      padding: 30px 0;
+      padding: 40px 0 30px;
     }
   /* 3.2. typography
      ========================================================================== */
@@ -311,7 +311,7 @@
   /* 3.4. HERO
      ========================================================================== */
     .hero {
-      padding: 50px 0 30px;
+      padding: 50px 0 10px;
     }
     .hero h2 {
       font-size: 24px;
@@ -320,8 +320,14 @@
   /* 3.5. ADVANTAGES
      ========================================================================== */
     .advantages {
-      width: 73%;
-      margin: 0 auto;
+      width: 100%;
+      background: #fff;
+      padding-top: 50px;  
+    }
+    .advantage {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
     }
   /* 3.6. CATEGORIES
      ========================================================================== */
