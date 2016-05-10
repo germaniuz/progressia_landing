@@ -39,6 +39,8 @@
  *    - 4.3. forms
  *    - 4.4. fixes
  *    - 4.5. HEADER
+ *    - 4.6. HERO
+ *    - 4.7. ADVANTAGES
  *    - 4.6. OBJECTS
  *  5. PAD 750px
  *    - 5.1. helpers
@@ -104,25 +106,23 @@
       text-transform: uppercase;
       text-align: center;   
     }
-    h2.devider,
-    h2.devider-light {
+    .devider,
+    .devider-light {
       position: relative;
       margin-bottom: 60px;
     }
-    h2.devider:after,
-    h2.devider-light:after { /* TODO: check styles for 750px and 1200px */
+    .devider:after,
+    .devider-light:after { /* TODO: check styles for 750px and 1200px */
       content: " ";
-      position: absolute;
-      bottom: -40px;
-      left: 34%;
       width: 100px;
       height: 14px;
       display: block;
+      margin: 30px auto;
     }
-    h2.devider:after {
+    .devider:after {
       background: url(../img/devider.svg) no-repeat;
     }
-    h2.devider-light:after {
+    .devider-light:after {
       background: url(../img/devider_light.svg) no-repeat;
     }
     p {
@@ -217,7 +217,7 @@
     }
     .down-arrow {
       display: block;
-      margin: 40px auto 50px;
+      margin: 30px auto 40px;
     }
   /* 1.3. ADVANTAGES
      ========================================================================== */
@@ -400,11 +400,16 @@
       top: 25px;
       right: 0;
     }
-  /* 4.4. ADVANTAGES
+  /* 4.6. HERO
      ========================================================================== */
+    .hero .devider-light {
+      margin-top: 45px;
+    }
+  /* 4.7. ADVANTAGES
+     ========================================================================== */
+    
     .advantages {
       margin-top: 50px;
-      margin-bottom: 50px;
     }
     .advantage {
       width: 230px;
