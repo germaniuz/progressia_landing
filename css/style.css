@@ -86,9 +86,6 @@
       padding: 40px 0;
       color: #fff;
     }
-    .col + .col {
-      margin-left: 30px;
-    }
   /* 0.2 typography
      ========================================================================== */
     body {
@@ -109,7 +106,7 @@
     .devider,
     .devider-light {
       position: relative;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
     .devider:after,
     .devider-light:after { /* TODO: check styles for 750px and 1200px */
@@ -246,7 +243,6 @@
   /* 1.5. OBJECTS
      ========================================================================== */
     .object {
-      margin: 30px 0;
       overflow: hidden;
       font-size: 14px;
     }
@@ -346,6 +342,12 @@
 
   /* 3.7. OBJECTS
      ========================================================================== */
+    .objects {
+      padding-bottom: 10px;
+    }
+    .object {
+      margin: 30px 0;
+    }
   /* 3.8. CONTACTS
      ========================================================================== */
   /* 3.9. GET-FORM
@@ -373,8 +375,11 @@
     }
     .grey-block-d {
       background: #F7F7F7;
-      padding: 15px 0;
+      padding: 40px 0 20px;
       margin: 50px 0;
+    }
+    .col + .col {
+      margin-left: 30px;
     }
   /* 4.5. HEADER
      ========================================================================== */
@@ -419,6 +424,7 @@
      ========================================================================== */
     .object {
       min-height: 253px;
+      margin-bottom: 30px;  
     }
   /* 4.7.GET-FORM
      ========================================================================== */
@@ -433,7 +439,7 @@
   /* 5.1. helpers
      ========================================================================== */
      .wrapper {
-      max-width: 750px;
+      width: 750px;
       padding: 0 15px;
      }
      .desktop {
@@ -454,7 +460,7 @@
   /* 5.5. ADVANTAGES
      ========================================================================== */
     .advantages {
-      max-width: 750px;
+      width: 750px;
       margin-left: auto;
       margin-right: auto;
     }
