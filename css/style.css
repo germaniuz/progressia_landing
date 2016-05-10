@@ -221,6 +221,8 @@
     .advantages {
       line-height: 1.35;
       overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
     }
     .advantage {
       margin-bottom: 30px;
@@ -376,10 +378,6 @@
     .grey-block-d {
       background: #F7F7F7;
       padding: 40px 0 20px;
-      margin: 50px 0;
-    }
-    .col + .col {
-      margin-left: 30px;
     }
   /* 4.5. HEADER
      ========================================================================== */
@@ -401,6 +399,10 @@
     }
   /* 4.6. HERO
      ========================================================================== */
+    .hero {
+      padding: 70px 0 30px;
+      overflow: hidden;
+    }
     .hero .devider-light {
       margin-top: 45px;
     }
@@ -411,31 +413,41 @@
       margin-top: 50px;
     }
     .advantage {
-      width: 230px;
       float: left;
       color: #fff;
       font-weight: 300;
-      padding: 0 10px;
     }
     .advantage img {
       height: 70px;
     }
-  /* 4.6. OBJECTS
+  /* 4.8. CATEGORIES
+     ========================================================================== */
+    .categories {
+      overflow: hidden;
+    }
+    .category {
+      height: 75px;
+      float: left;
+    }
+  /* 4.9. OBJECTS
      ========================================================================== */
     .object {
       min-height: 253px;
       margin-bottom: 30px;  
     }
-  /* 4.7.GET-FORM
+  /* 4.10.GET-FORM
      ========================================================================== */
      .get-form form {
       width: 380px;
+     }
+     input[type="text"] {
+      font-size: 16px;
      }
   }
 /* ==========================================================================
    5. PAD 750px 
    ========================================================================== */
-  @media screen and (min-width: 751px) and (max-width: 1210px) {
+  @media screen and (min-width: 751px) and (max-width: 1230px) {
   /* 5.1. helpers
      ========================================================================== */
      .wrapper {
@@ -445,12 +457,14 @@
      .desktop {
       display: none;
      }
+     .col + .col {
+      margin-left: 30px;
+     }
+     .grey-block-d {
+      margin: 50px 0;
+     }
   /* 5.4. HERO
      ========================================================================== */
-    .hero {
-      padding: 70px 0 30px;
-      overflow: hidden;
-    }
     .hero h2 {
       margin-bottom: 35px;
       width: 641px;
@@ -461,18 +475,15 @@
      ========================================================================== */
     .advantages {
       width: 750px;
-      margin-left: auto;
-      margin-right: auto;
+    }
+    .advantage {
+      width: 230px;
+      padding: 0 10px;
     }
   /* 5.6. CATEGORIES
      ========================================================================== */
-    .categories {
-      overflow: hidden;
-    }
     .category {
       width: 340px;
-      float: left;
-      height: 30px;
       height: 75px;
     }
     
@@ -492,4 +503,110 @@
     }
   /* 5.8. CONTACTS
      ========================================================================== */
+  }
+/* ==========================================================================
+   6. DESKTOP
+   ========================================================================== */
+  @media screen and (min-width: 1231px) {
+  /* 6.1. helpers
+     ========================================================================== */
+    .wrapper {
+      width: 1200px;
+    }
+    .no-desktop {
+      display: none;
+    }
+  /* 6.2. typography
+     ========================================================================== */
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+  /* 6.2. HERO
+     ========================================================================== */
+    .hero h2 {
+      font-size: 36px;
+    }
+    .hero p {
+    }
+    .hero .btn {
+      margin-top: 60px;
+      font-size: 18px;
+    }
+  /* 6.3. ADVANTAGES
+     ========================================================================== */
+    .advantages {
+      width: 1200px;
+    }
+    .advantage {
+      width: 350px;
+      padding: 0 25px;
+    }
+  /* 6.4. CATEGORIES
+     ========================================================================== */
+    .categories {
+      margin-top: 60px;
+    }
+    .category {
+      width: 340px;
+      margin-bottom: 10px;
+    }
+    .category:nth-child(3n+3),
+    .category:nth-child(3n+1) {
+      margin-left: 90px;
+    }
+  /* OBJECTS
+     ========================================================================== */
+    .objects {
+      overflow: hidden;
+    }
+    .objects .col {
+      width: 380px;
+      float: left;
+    }
+    .objects .col + .col {
+      margin-left: 30px;
+    }
+    .object {
+      height: 280px;
+    }
+    .object p {
+      font-size: 16px;
+    }
+  /* 6.5. CONTACTS
+     ========================================================================== */
+    .contact-wrapper {
+    position: relative;
+    }
+    .contact-wrapper .wrapper {
+      width: 100%;
+    }
+    .contacts {
+      width: 470px;
+      height: 490px;
+      padding: 50px 30px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 99;
+      background: #fff;
+      overflow: hidden;
+    }
+    .contacts h2 {
+      margin-bottom: 20px;
+    }
+    .contacts p {
+    font-size: 16px;
+    }
+  /* 6.6. GET-FORM
+     ========================================================================== */
+    .get-form h2 {
+      width: 670px;
+      margin: 0 auto;
+    }
   }
