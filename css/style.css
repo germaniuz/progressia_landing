@@ -240,7 +240,8 @@
     }
     .categories img {
       width: 40px;
-      margin-right: 20px; 
+      margin-right: 20px;
+      float: left;
     }
   /* 1.5. OBJECTS
      ========================================================================== */
@@ -337,19 +338,12 @@
       line-height: 1.4;
       margin: 10px 0 40px;
     }
-    .categories .col  {
+    .category  {
       width: 85%;
-      margin: 0 auto; 
-    }
-    .category {
-      margin: 20px 0;
+      margin: 30px auto; 
       overflow: hidden;
     }
-    .category img {
-      display: block;
-      float: left;
-      margin-bottom: 20px;
-    }
+
   /* 3.7. OBJECTS
      ========================================================================== */
   /* 3.8. CONTACTS
@@ -463,6 +457,21 @@
       max-width: 750px;
       margin-left: auto;
       margin-right: auto;
+    }
+  /* 5.6. CATEGORIES
+     ========================================================================== */
+    .categories {
+      overflow: hidden;
+    }
+    .category {
+      width: 340px;
+      float: left;
+      height: 30px;
+      height: 75px;
+    }
+    
+    .category:nth-child(odd) {
+      margin-left: 40px;
     }
   /* 5.7. OBJECTS&CONTACTS
      ========================================================================== */
