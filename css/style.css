@@ -216,12 +216,14 @@
       line-height: 1.33;
     }
     .down-arrow {
-      margin: 40px 0 50px;
+      display: block;
+      margin: 40px auto 50px;
     }
   /* 1.3. ADVANTAGES
      ========================================================================== */
     .advantages {
       line-height: 1.35;
+      overflow: hidden;
     }
     .advantage {
       margin-bottom: 30px;
@@ -372,6 +374,9 @@
   @media screen and (min-width: 751px) {
   /* 4.1. helpers
      ========================================================================== */
+    .mobile {
+      display: none;
+    }
     .grey-block-d {
       background: #F7F7F7;
       padding: 15px 0;
@@ -379,7 +384,6 @@
     }
   /* 4.5. HEADER
      ========================================================================== */
-  
     header {
       position: relative;
       overflow: hidden;
@@ -395,6 +399,22 @@
       position: absolute;
       top: 25px;
       right: 0;
+    }
+  /* 4.4. ADVANTAGES
+     ========================================================================== */
+    .advantages {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .advantage {
+      width: 230px;
+      float: left;
+      color: #fff;
+      font-weight: 300;
+      padding: 0 10px;
+    }
+    .advantage img {
+      height: 70px;
     }
   /* 4.6. OBJECTS
      ========================================================================== */
@@ -423,10 +443,21 @@
   /* 5.4. HERO
      ========================================================================== */
     .hero {
-      padding: 70px 0;
+      padding: 70px 0 30px;
+      overflow: hidden;
     }
     .hero h2 {
       margin-bottom: 35px;
+      width: 641px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  /* 5.5. ADVANTAGES
+     ========================================================================== */
+    .advantages {
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
     }
   /* 5.7. OBJECTS&CONTACTS
      ========================================================================== */
