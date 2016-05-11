@@ -150,13 +150,13 @@
     }
   /* 0.3. forms
      ========================================================================== */
-    input {
+    .get-form input {
       border: none;
       display: block;
       width: 100%;
       margin-bottom: 20px;
     }
-    input[type="text"] {
+    .get-form input[type="text"] {
       padding: 5px 0 10px;
       border-bottom: 1px solid #FFF;
       background: #1D3755;
@@ -186,7 +186,7 @@
       -webkit-background-size:auto 95%;
       background-size: auto 95%;
     }
-    .callback {
+    .callback-btn {
       color: #007dcc;
       font-weight: 300;
       font-style: italic;
