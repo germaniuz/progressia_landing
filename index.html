@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width = device-width, initial-scale = 1">
   <title>Федеральная служба стандартизации</title>
+  <script src="js/jquery-1.12.3.min.js"></script>
   <script src="https://use.typekit.net/fyq1pba.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="css/reset.css">
@@ -164,7 +165,7 @@
   <div class="get-form blue-block">
     <div class="wrapper">
       <h2 class="devider-light">ДЛЯ ПОЛУЧЕНИЯ ПАСПОРТА БЕЗОПАСНОСТИ ЗАПОЛНИТЕ ФОРМУ:</h2>
-      <form action="post" id="get-form">
+      <form action="mailer.php" method="post" id="get-form">
         <input type="text" name="name" placeholder="Ваше имя">
         <input type="text" name="phone" placeholder="Ваш телефон">
         <input type="text" name="email" placeholder="Ваш email">
@@ -173,7 +174,7 @@
     </div>
   </div>
   <div class="callback">
-    <form action="callback-form">
+    <form method="post" action="mailer.php" id="callback-form">
       <h2>Обратный звонок</h2>
       <p class="message">Наш специалист позвонит Вам в течении 15 минут</p>
       <input type="text" name="name" placeholder="Ваше имя:">
