@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="24" viewBox="0 0 60 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #232323;
+        fill-rule: evenodd;
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <path id="up_arrow.svg" class="cls-1" d="M464,4380l-30-16.14v-7.85l30,16.14V4380Zm-60,0,30-16.14v-7.85l-30,16.14V4380Z" transform="translate(-404 -4356)"/>
+</svg>
