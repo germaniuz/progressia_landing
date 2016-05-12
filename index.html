@@ -6,6 +6,7 @@
   <title>Федеральная служба стандартизации</title>
   <script src="js/jquery-1.12.3.min.js"></script>
   <script src="js/to_top.js"></script>
+  <script src="js/popup.js"></script>
   <script src="https://use.typekit.net/fyq1pba.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="css/reset.css">
@@ -17,13 +18,13 @@
       <img src="img/gerb.png" alt="Федеральная служба паспортизации" class="logo">
       <h1 class="sitename">Федеральная служба<br>паспортизации</h1>
       <p class="phone-icon">8800 400 54 54</p>
-      <a href="#" class="callback-btn pad">Обратный звонок</a>
+      <a href="#" class="open-btn callback-btn pad">Обратный звонок</a>
     </header>
   </div>
   <div class="hero">
     <div class="wrapper">
       <h2><strong>РАЗРАБОТКА И СОГЛАСОВАНИЕ ПАСПОРТА</strong><br>АНТИТЕРРОРИСТИЧЕСКОЙ ЗАЩИЩЕННОСТИ ПО РФ</h2>
-      <div class="btn yellow-btn">Получить паспорт безопасности</div>
+      <a href="#down" class="btn yellow-btn scroll">Получить паспорт безопасности</a>
       <div class="pad devider-light"></div>
       <img src="img/down_arrow.svg" alt="смотри ниже" class="down-arrow mobile">
     </div>
@@ -163,7 +164,7 @@
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=FA6AP-2E9Vq82IohB_vcWFPwjTzGJj1w&width=100%&height=560&lang=ru_RU&sourceType=constructor&scroll=true"></script>
     </div>
   </div>
-  <div class="get-form blue-block">
+  <div class="get-form blue-block" id="down">
     <div class="wrapper">
       <h2 class="devider-light">ДЛЯ ПОЛУЧЕНИЯ ПАСПОРТА БЕЗОПАСНОСТИ ЗАПОЛНИТЕ ФОРМУ:</h2>
       <form action="mailer.php" method="post" id="get-form">
@@ -174,15 +175,19 @@
       </form>
     </div>
   </div>
-  <div class="callback">
-    <form method="post" action="mailer.php" id="callback-form">
-      <h2>Обратный звонок</h2>
-      <p class="message">Наш специалист позвонит Вам в течении 15 минут</p>
-      <input type="text" name="name" placeholder="Ваше имя:">
-      <input type="text" name="phone" placeholder="Ваш телефон:">
-      <input type="submit" value="Отправить">
-    </form>
+  <div class="pop-bg"></div>
+  <div class="pop-box">
+    <div class="callback">
+      <span class="close-btn">&times;</span>
+      <form method="post" action="mailer.php" id="callback-form">
+        <h2>Обратный звонок</h2>
+        <p class="message">Наш специалист позвонит Вам в течении 15 минут</p>
+        <input type="text" name="name" placeholder="Ваше имя:">
+        <input type="text" name="phone" placeholder="Ваш телефон:">
+        <input type="submit" value="Отправить" class="btn yellow-btn">
+      </form>
+    </div>
   </div>
-  <a href="#top" class="back2top scrollFadeIn pad" title="Вернуться наверх"></a>
+  <a href="#top" class="back2top scrollFadeIn scroll pad" title="Вернуться наверх"></a>
 </body>
 </html>

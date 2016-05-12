@@ -19,9 +19,10 @@
  *    - 1.5. OBJECTS
  *    - 1.6. CONTACTS
  *    - 1.7. GET-FORM
+ *    - 1.8. CALLBACK
  *  2. MODULES
- *    - 2.1. POPUP
- *    - 2.2. GO-TOP
+ *    - 2.1. back2top
+ *    - 2.2. popup
  *  3. MOBILE 480px
  *    - 3.1. helpers
  *    - 3.2. typography
@@ -138,6 +139,8 @@
       margin: 0 auto;
     }
     .yellow-btn {
+      color: #000;
+      text-decoration: none;
       background: #ffe200;
       background: -moz-linear-gradient(top,  #ffe200 0%, #ffb018 100%);
       background: -webkit-linear-gradient(top,  #ffe200 0%,#ffb018 100%);
@@ -268,10 +271,41 @@
       margin-top: 35px;
       cursor: pointer;
     }
+  /* 1.8. CALLBACK
+     ========================================================================== */
+    .callback h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #474747;
+      font-weight: 300;
+    }
+    .callback p {
+      font-size: 15px;
+      color: #474747;
+      width: 80%;
+      margin: 0 auto 35px;
+      text-align: center;
+    }
+    .callback input[type="text"] {
+      border: 1px solid #D5D5D5;
+      color: #474747;
+      padding: 10px 25px;
+      border-radius: 5px;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+    .callback .btn {
+      margin-top: 25px;
+      border: none;
+      cursor: pointer;
+    }
 /* ==========================================================================
    2. MODULES
    ========================================================================== */
-  /* 2.1. popup
+  /* 2.1. back2top
      ========================================================================== */
     .back2top {
       position: fixed;
@@ -287,6 +321,41 @@
     .back2top:hover {
       opacity: 1;
     }
+  /* 2.2. popup
+     ========================================================================== */
+    .pop-bg {
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: 1000;
+      background: rgba(0,17,32,.8);
+      top: 0;
+      left: 0;
+      cursor: pointer;
+      display: none;
+    }
+    .pop-box {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #FFFFFF;
+      width: 350px;
+      margin: 100px 0 0 37%;
+      padding: 40px 20px;
+      z-index: 1500;
+      border-radius: 10px;
+      display: none;
+    }
+    .close-btn {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      font-size: 28px;
+      color: #929EA9;
+      font-weight: 300;
+      cursor: pointer;
+    }
+
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */

@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
-  jQuery('a.back2top').bind("click", function (e) {
+  jQuery('a.scroll').bind("click", function (e) {
     var anchor = jQuery(this);
     jQuery('html, body').stop().animate({
       scrollTop: jQuery(anchor.attr('href')).offset().top
@@ -17,5 +17,6 @@ jQuery(document).ready(function () {
       }
     });
   });
+
   return false;
 });
