@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
     var anchor = jQuery(this);
     jQuery('html, body').stop().animate({
       scrollTop: jQuery(anchor.attr('href')).offset().top
-    }, 1000);
+    }, 1500);
     e.preventDefault();
   });
   var topButton = jQuery('.scrollFadeIn');
