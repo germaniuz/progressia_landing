@@ -7,6 +7,7 @@
   <script src="js/jquery-1.12.3.min.js"></script>
   <script src="js/to_top.js"></script>
   <script src="js/popup.js"></script>
+  <script src="post.js"></script>
   <script src="https://use.typekit.net/fyq1pba.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="css/reset.css">
@@ -35,7 +36,7 @@
       </div>
       <div class="advantage">
         <img src="img/passport.png" alt="Паспорт защищенности">
-        <p>Изготовим паспорт по Постановлению правительства №272 от 25.03.2015г</p>
+        <p>Разработаем паспорт в соответствии с требованиями Законодательства для Вашего объекта</p>
       </div>
       <div class="advantage">
         <img src="img/hammer.png" alt="Согласование паспорта защищенности">
@@ -99,13 +100,13 @@
           </div>
           <div class="object">
             <img src="img/galereya.jpg" alt="ТРК-Галерея">
-            <p>ТРК-Галерея г.Краснодар-ул.Володи-Головатого,-313</p>
+            <p>ТРК-Галерея г.Краснодар-ул.Володи-Головатого 313</p>
           </div>
         </div>
         <div class="col pad">
           <div class="object">
             <img src="img/sad.jpg" alt="Детский сад № 3">
-            <p>Детский сад № 3 при призиденте РФ Москва,ул</p>
+            <p>Детский сад № 3 при призиденте РФ Москва,ул Малые Каменщеки, 8</p>
           </div>
           <div class="object">
             <img src="img/lesport.jpg" alt="Петролеспорт">
@@ -139,23 +140,27 @@
         <div class="devider no-desktop"></div>
         <div class="col">
           <p>
-            <strong>Москва, Щелковское шоссе 100</strong>
-            <br>88004544545<br>88004544545
+            <strong>Москва, Щелковское шоссе 100, БЦ EastGate</strong>
+            <br>офисы 309-313
+            <br>88007078133
           </p>
           <p>
-            <strong>Волгоград, ул. Рокоссовского 62,</strong>
-            <br>88004544545<br>88004544545
+            <strong>Волгоград, ул.Рокоссовского 62, БЦ ВолгоградСити</strong>
+            <br>88007078133
+            <br>88442986526
           </p>
         </div>
         <div class="col">
           <p>
             <strong>Санкт-Петербург, Московский пр., д.91 лит. А</strong>
-            <br>88004544545<br>88004544545
+            <br>офис 704
+            <br>88007078133
+            <br>88129065160
           </p>
           <p>
-            <strong>Краснодар, ул. Трамвайная 2/6</strong>
-            <br>88004544545
-            <br>88004544545
+            <strong>Краснодар, ул.Трамвайная 2/6</strong>
+            <br>88007078133
+            <br>88612901852
           </p>
         </div>
       </div>
@@ -167,25 +172,27 @@
   <div class="get-form blue-block" id="down">
     <div class="wrapper">
       <h2 class="devider-light">ДЛЯ ПОЛУЧЕНИЯ ПАСПОРТА БЕЗОПАСНОСТИ ЗАПОЛНИТЕ ФОРМУ:</h2>
-      <form action="mailer.php" method="post" id="get-form">
-        <input type="text" name="name" placeholder="Ваше имя">
-        <input type="text" name="phone" placeholder="Ваш телефон">
-        <input type="text" name="email" placeholder="Ваш email">
-        <input type="submit" class="btn yellow-btn" value="Получить паспорт безопасности">
+      <form action="post" method="" id="get-form">
+        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+        <input type="text" id="phone" name="phone" placeholder="Ваш телефон" required>
+        <input type="email" id="email" name="email" placeholder="Ваш email" required>
+        <input type="submit" class="btn yellow-btn" value="Получить паспорт безопасности" onclick="return getForm()">
       </form>
+      <p id="msg"></p>
     </div>
   </div>
   <div class="pop-bg"></div>
   <div class="pop-box">
     <div class="callback">
       <span class="close-btn">&times;</span>
-      <form method="post" action="mailer.php" id="callback-form">
+      <form method="post" action="" id="callback-form">
         <h2>Обратный звонок</h2>
         <p class="message">Наш специалист позвонит Вам в течении 15 минут</p>
-        <input type="text" name="name" placeholder="Ваше имя:">
-        <input type="text" name="phone" placeholder="Ваш телефон:">
-        <input type="submit" value="Отправить" class="btn yellow-btn">
+        <input type="text" id="name1" name="name" placeholder="Ваше имя:" required>
+        <input type="text" id="phone1" name="phone" placeholder="Ваш телефон:" required>
+        <input type="submit" value="Отправить" class="btn yellow-btn" onclick="return callBack()">
       </form>
+    <p id="msg1"></p>
     </div>
   </div>
   <a href="#top" class="back2top scrollFadeIn scroll pad" title="Вернуться наверх"></a>

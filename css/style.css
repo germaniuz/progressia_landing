@@ -159,7 +159,8 @@
       width: 100%;
       margin-bottom: 20px;
     }
-    .get-form input[type="text"] {
+    .get-form input[type="text"],
+    .get-form input[type="email"] {
       padding: 5px 0 10px;
       border-bottom: 1px solid #FFF;
       background: #1D3755;
@@ -355,7 +356,28 @@
       font-weight: 300;
       cursor: pointer;
     }
-
+  /* 2.3. AJAX FORMS 
+     ========================================================================== */
+    #msg,
+    #msg1 {
+      display: none;
+      text-align: center;
+      font-weight: 300;
+    }
+    input {
+      position: relative;
+    }
+    .empty {
+      border: 1px solid #C9000C 0;
+    }
+    .empty:before {
+      content: 'Не должно быть пустым';
+      color: #cacaca;
+      display: block;
+      position: absolute;
+      top: -10px;
+      left: 0;
+    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
@@ -529,7 +551,8 @@
      .get-form form {
       width: 380px;
      }
-     input[type="text"] {
+     input[type="text"],
+     input[type="email"] {
       font-size: 16px;
      }
   }

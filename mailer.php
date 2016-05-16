@@ -2,7 +2,7 @@
 
 if (isset($_POST['phone']) || isset($_POST['email'])){
 
-	$message ='<h2>Заявка с сайта «Refit Auto»</h2>';
+	$message ='<h2>Заявка с сайта «Разработка Паспорта Безопасности»</h2>';
 	
 	if(isset($_POST['name'])){
 		$message .= '<p>Имя: <b>'.$_POST['name'].'</b></p>';
@@ -23,10 +23,10 @@ if (isset($_POST['phone']) || isset($_POST['email'])){
 	$mail->FromName = $_REQUEST['name'] ? $_REQUEST['name'] : '-не указано-';
 	$mail->AddAddress('germanius@list.ru');
 	$mail->IsHTML(true);
-	$mail->Subject = "Test message from progressia landing page";
+	$mail->Subject = "Заявка с сайта Разработка Паспорта Безопасности";
 	$mail->Body = $message;	
 	
 	if (!$mail->Send()) die ('Mailer Error: '.$mail->ErrorInfo);
-	echo  "Ваша заявка отправлена.";
+	echo  "Заявка успешно отправлена. Наши менеджеры свяжутся с Вами в ближайшее время";
 	
 } ?>
