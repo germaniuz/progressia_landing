@@ -21,7 +21,7 @@ if (isset($_POST['phone']) || isset($_POST['email'])){
 	$mail = new PHPMailer();
 	$mail->From = $_POST['email'] ? $_POST['email'] : "noreply@".$_SERVER['HTTP_HOST'];
 	$mail->FromName = $_REQUEST['name'] ? $_REQUEST['name'] : '-не указано-';
-	$mail->AddAddress('germanius@list.ru');
+	$mail->AddAddress('info@progressia-group.ru');
 	$mail->IsHTML(true);
 	$mail->Subject = "Заявка с сайта Разработка Паспорта Безопасности";
 	$mail->Body = $message;	

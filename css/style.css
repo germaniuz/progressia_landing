@@ -364,20 +364,6 @@
       text-align: center;
       font-weight: 300;
     }
-    input {
-      position: relative;
-    }
-    .empty {
-      border: 1px solid #C9000C 0;
-    }
-    .empty:before {
-      content: 'Не должно быть пустым';
-      color: #cacaca;
-      display: block;
-      position: absolute;
-      top: -10px;
-      left: 0;
-    }
 /* ==========================================================================
    3. MOBILE 480px
    ========================================================================== */
